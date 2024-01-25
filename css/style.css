@@ -71,6 +71,7 @@ a{
    margin-right: 20px;
 }
 
+
 /* JUMBOTRON */
 .jumbotron{
    justify-content: center ;
@@ -103,7 +104,6 @@ p{
 
 .img.jumbo{
    width: 820px;
-   position: absolute;
    right: -180px;
    bottom: -70px;
 }
@@ -121,7 +121,6 @@ p{
 }
 
 .fa-arrow-down{
-   position: absolute;
    font-size: 50px;
    bottom: 40px;
 }
@@ -132,6 +131,78 @@ p{
 
 /* INIZIO MAIN */
 
+/* INIZIO SEZIONE BUSINESS */
+main{
+   justify-content: center;
+}
+
+.container.business{
+   max-width: 1000px;
+   margin-top: 160px;
+   flex-wrap: wrap;
+   justify-content: center;
+   justify-content: space-between;
+}
+
+.blocco.orizzontale.business{
+   border: none;
+}
+
+.blocco.orizzontale{
+   width: 1000px;
+   height: 150px;
+   background-color: red;
+   border: 3px solid black;
+}
+
+.blocco.verticale{
+   width: 300px;
+   height: 1000px;
+   background-color: red;
+   border: 1px solid black;
+}
+
+
+
+
+
+
+.title.business{
+   font-size: 40px;
+}
+
+.radio-fatturazione{
+   margin-top: 50px;
+}
+
+.radioDX{
+   margin-left: 50px;
+}
+
+.fatturazione{
+   margin-left: 5px;
+}
+
+
+
+
+
+
+.box-singolo,
+.box-team,
+.box-azienda{
+   text-align: center;
+   border: 1px solid black;
+}
+
+.text-singolo,
+.text-team,
+.text-azienda{
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 500;
+   margin: 5px;
+}
 
 
 
@@ -141,6 +212,31 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE SEZIONE BUSINESS */
 
 
 
