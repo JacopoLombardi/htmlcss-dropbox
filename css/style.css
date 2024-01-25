@@ -18,7 +18,7 @@ body{
 }
 
 .fixed{
-   flex: fixed;
+   position: fixed;
 }
 
 .relative{
@@ -31,7 +31,6 @@ body{
 
 a{
    text-decoration: none;
-   font-weight: 600;
 }
 
 .underline{
@@ -42,6 +41,22 @@ a{
    background-color: rgb(0, 97, 255);
    color: white;
 }
+
+.btn-white{
+   color: black;
+   border: 1px solid black;
+}
+
+
+.btn-blu:hover{
+   background-color: rgb(62, 142, 253);
+}
+
+
+
+
+
+
 
 
 
@@ -54,12 +69,15 @@ a{
    height: 80px;
    align-items: center;
    justify-content: space-between;
+   z-index: 1;
+   background-color: white;
+   
+
 }
 
 .link-fixed{
    color: black;
    margin-top: 20px;
-   
 }
 
 .text-fixed{
@@ -85,6 +103,7 @@ a{
 .jumbotron{
    justify-content: center ;
    background-color: rgb(180, 208, 231);
+   padding-top: 80px;
 }
 
 .container.jumbo{
@@ -99,10 +118,9 @@ h1{
    font-weight: 800;
 }
 
-p{
+.jumbo p{
    width: 390px;
    font-size: 18px;
-   font-weight: 600;
    margin-top: 60px;
    margin-bottom: 50px;
 }
@@ -121,7 +139,6 @@ p{
 .annulla{
    font-size: 19px;
    margin-top: 40px;
-   font-weight: 600;
 }
 
 .fa-arrow-down{
@@ -137,7 +154,7 @@ p{
 /* INIZIO MAIN */
 
 /* INIZIO SEZIONE BUSINESS */
-main{
+.section-business{
    justify-content: center;
 }
 
@@ -178,7 +195,7 @@ main{
 
 
 /* PRIMO BLOCCO ORIZZONTALE */
-.title.business{
+h2{
    font-size: 40px;
 }
 
@@ -290,6 +307,104 @@ h5{
 
 
 
+/* INIZIO SEZIONE PARTNER */
+.section-partner{
+   width: 100%;
+   margin-top: 150px;
+   justify-content: center;
+}
+
+.container.partner{
+   width: 1000px;
+   height: auto;
+   justify-content: space-between;
+}
+
+.section-partner .img-partner{
+   width: 60%;
+}
+
+.container-text{
+   width: 40%;
+   margin-left: 20px;
+}
+
+.container-text h3{
+   margin-right: 100px;
+}
+
+.container-text p{
+   margin: 20px 0;
+   margin-bottom: 50px;
+}
+
+.btn-partner{
+   padding: 10px 15px;
+   font-size: 17px;
+}
+/* FINE SEZIONE PARTNER */
+
+
+
+
+/* INIZIO SEZIONE OPERAZIONI */
+.section-operazioni{
+   justify-content: center;
+}
+
+.container.operazioni{
+   width: 1000px;
+   height: auto;
+   flex-wrap: wrap; 
+}
+
+.h2-operazioni{
+   margin-top: 160px;
+   text-align: center;
+}
+
+.card{
+   width: calc(1000px / 3);
+   margin: 70px 0 0 0;
+}
+
+.card h3{
+   font-size: 25px;
+   margin: 0 0 30px 0;
+}
+
+.card p{
+   margin-right: 40px;
+}
+/* FINE SEZIONE OPERAZIONI */
+
+
+
+
+
+/* INIZIO SEZIONE QUADRATONI*/
+
+/* TITOLO */
+.titolo-quadratoni{
+   justify-content: center;
+}
+
+
+.container.titolo.quadratoni{
+   width: 1000px;
+   margin: 200px 0 150px 0;
+   
+}
+
+.container.titolo.quadratoni h2{
+   margin: 0 300px 75px 0;
+}
+
+.container.titolo.quadratoni span{
+   text-decoration: underline;
+}
+
+/* QUADRATONI */
 
 
 
@@ -301,6 +416,18 @@ h5{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* FINE SEZIONE QUADRATONI*/
 
 
 
