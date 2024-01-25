@@ -25,14 +25,18 @@ body{
 }
 
 a{
-   color: white;
    text-decoration: none;
    font-weight: 600;
 }
 
+.underline{
+   text-decoration: underline;
+}
 
-
-
+.btn-blu{
+   background-color: rgb(0, 97, 255);
+   color: white;
+}
 
 
 
@@ -50,6 +54,7 @@ a{
 .link-fixed{
    color: black;
    margin-top: 20px;
+   
 }
 
 .text-fixed{
@@ -66,7 +71,6 @@ a{
 }
 
 .btn-fixed{
-   background-color: rgb(0, 97, 255);
    padding: 10px 15px;
    margin-right: 20px;
 }
@@ -76,10 +80,6 @@ a{
 .jumbotron{
    justify-content: center ;
    background-color: rgb(180, 208, 231);
-}
-
-.debug{
-   background-color: aqua;
 }
 
 .container.jumbo{
@@ -108,8 +108,7 @@ p{
    bottom: -70px;
 }
 
-.btn.jumbo{
-   background-color: rgb(0, 97, 255);
+.btn-jumbo{
    font-size: 20px;
    padding: 15px;
 }
@@ -146,23 +145,26 @@ main{
 
 .blocco.orizzontale.business{
    border: none;
+   margin-bottom: 45px;
+   height: 150px;
 }
 
 .blocco.orizzontale{
    width: 1000px;
-   height: 150px;
-   background-color: red;
-   border: 3px solid black;
+   height: 260px;
+   border: 1px solid black;
 }
 
 .blocco.verticale{
    width: 300px;
    height: 1000px;
-   background-color: red;
+   background-color: rgb(193, 97, 97);
    border: 1px solid black;
 }
 
-
+.blocco.orizzontale.enterprise{
+   margin-top: 45px;
+}
 
 
 
@@ -172,7 +174,7 @@ main{
 }
 
 .radio-fatturazione{
-   margin-top: 50px;
+   margin-top: 60px;
 }
 
 .radioDX{
@@ -201,7 +203,54 @@ main{
    display: inline-block;
    font-size: 14px;
    font-weight: 500;
-   margin: 5px;
+   margin: 6px;
+}
+
+.box-professional,
+.box-advanced,
+.box-enterprise{
+   margin-left: 30px;
+}
+
+
+
+h3{
+   font-size: 23px;
+   margin: 35px 0 25px 0;
+}
+
+.abbonamento{
+   margin: 15px 0 50px 0;
+}
+
+.info-business,
+.icon-business{
+   display: inline-block;
+}
+
+.info-business{
+   width: 90%;
+}
+
+
+
+
+
+
+.btn-prova30g{
+   display: inline-block;
+   padding: 15px 30px;
+   margin: 70px 0 50px 0;
+   text-align: center;
+}
+
+
+.link-acquista-ora{
+   margin: 50px 0 40px 0;
+}
+
+.small.row{
+   width: 50px;
 }
 
 
@@ -212,24 +261,16 @@ main{
 
 
 
+.btn-contatta{
+   padding: 10px 20px;
+   right: 30px;
+   top: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.info-enterprise-orizzontale{
+   width: 70%;
+   margin-top: 50px;
+}
 
 
 
