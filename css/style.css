@@ -47,14 +47,17 @@ a{
    border: 1px solid black;
 }
 
-
 .btn-blu:hover{
    background-color: rgb(62, 142, 253);
 }
 
+.btn-white:hover{
+   background-color: rgb(241, 241, 241);
+}
 
-
-
+li{
+   list-style: none;
+}
 
 
 
@@ -71,8 +74,6 @@ a{
    justify-content: space-between;
    z-index: 1;
    background-color: white;
-   
-
 }
 
 .link-fixed{
@@ -108,7 +109,7 @@ a{
 
 .container.jumbo{
    width: 1000px;
-   height: 750px;
+   min-height: 750px;
 }
 
 h1{
@@ -126,7 +127,7 @@ h1{
 }
 
 .img.jumbo{
-   width: 820px;
+   width: 82%;
    right: -180px;
    bottom: -70px;
 }
@@ -145,6 +146,8 @@ h1{
    font-size: 50px;
    bottom: 40px;
 }
+
+
 /* FINE HEADER */
 
 
@@ -159,7 +162,7 @@ h1{
 }
 
 .container.business{
-   max-width: 1000px;
+   width: 1000px;
    margin-top: 160px;
    flex-wrap: wrap;
    justify-content: center;
@@ -168,18 +171,18 @@ h1{
 
 .blocco.orizzontale{
    width: 1000px;
-   height: 260px;
+   height: auto;
 }
 
 .blocco.verticale{
    width: 300px;
-   height: 1000px;
+   max-height: 1000px;
 }
 
 .blocco.orizzontale.business{
    border: none;
    margin-bottom: 45px;
-   height: 150px;
+   height: auto;
 }
 
 .blocco.orizzontale.enterprise{
@@ -215,9 +218,9 @@ h2{
 
 
 /* INIZIO MODIFICHE IN COMUNE TRA I BLOCCHI */
-.box-singolo,
-.box-team,
-.box-azienda{
+.header-singolo,
+.header-team,
+.header-azienda{
    text-align: center;
    border-bottom: 1px solid black;
 }
@@ -300,7 +303,7 @@ h5{
 
 .info-enterprise-orizzontale{
    width: 70%;
-   margin-top: 50px;
+   margin: 50px 0 20px 0;
 }
 /* FINE SEZIONE BUSINESS */
 
