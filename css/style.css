@@ -408,29 +408,165 @@ h5{
 }
 
 /* QUADRATONI */
+.quadrato-grande{
+   width: calc(100vW/3);
+   aspect-ratio: 1/1;
+   min-width: 520px;
+   flex-wrap: wrap;
+}
+
+.quadrato-piccolo{
+   width: 50%;
+   height: 50%;
+   justify-content: center;
+   align-items: center;
+}
 
 
+/* LEFT & RIGHT SQUARES */
+.quadrato-piccolo img{
+   width: 50%;
+}
+
+.quadrato-piccolo.uf img{
+   height: 10%;
+}
+
+.designit{
+   background-color: rgb(162, 211, 155);
+}
+
+.asu{
+   background-color: rgb(97, 7, 43);
+}
+
+.uf{
+   background-color: rgb(0, 147, 206);
+}
+
+.topps{
+   background-color: rgb(255, 28, 28);
+}
+
+.world{
+   background-color: rgb(213, 0, 31);
+}
+
+.hearst{
+   background-color: rgb(180, 208, 231);
+}
+
+.bonely{
+   background-color: rgb(13, 36, 129);
+}
+
+.clear{
+   background-color: rgb(255, 216, 48);
+}
 
 
+/* CENTER SQUARE */
+.quadrato-grande.centrale{
+   padding: 50px 50px 200px 50px;
+   overflow: auto;
+}
 
+.quadrato-grande.centrale img{
+   width: 45%;
+}
 
+.middle.row{
+   width: 100px;
+   margin: 40px 0;
+   border-color: rgba(163, 163, 163, 0.291);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quadrato-grande.centrale .end-text{
+   margin-top: 50px;
+}
 /* FINE SEZIONE QUADRATONI*/
+
+
+
+
+
+/* INIZIO SEZIONE PORTA */
+.section-porta{
+   justify-content: center;
+   background-color: rgb(180, 208, 231);
+   height: 360px;
+}
+
+.container.porta{
+   width: 1000px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.container.porta h2{
+   width: 50%;
+   color: rgb(97, 8, 43);
+}
+
+.container.porta .box-btn{
+   width: 50%;
+}
+
+.btn-porta{
+   background-color: white;
+   border: none;
+   padding: 10px 10px;
+   right: 0;
+   top: -40px;
+}
+/* FINE SEZIONE PORTA */
+
+
+
+
+
+/* INIZIO SEZIONE DOMANDE FREQUENTI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO SEZIONE DOMANDE FREQUENTI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
