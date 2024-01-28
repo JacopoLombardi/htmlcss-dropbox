@@ -108,7 +108,7 @@ li{
 }
 
 .container.jumbo{
-   width: 1000px;
+   width: 1200px;
    min-height: 750px;
 }
 
@@ -121,14 +121,14 @@ h1{
 
 .jumbo p{
    width: 390px;
-   font-size: 18px;
+   font-size: 17px;
    margin-top: 60px;
    margin-bottom: 50px;
 }
 
 .img.jumbo{
-   width: 82%;
-   right: -180px;
+   width: 70%;
+   right: -50px;
    bottom: -70px;
 }
 
@@ -422,6 +422,14 @@ h5{
    align-items: center;
 }
 
+.quadrato-grande img{
+   filter: invert(100%);
+}
+
+.quadrato-piccolo:hover{
+   border: 15px solid rgba(228, 228, 228, 0.726);
+   cursor: pointer;
+}
 
 /* LEFT & RIGHT SQUARES */
 .quadrato-piccolo img{
@@ -474,6 +482,7 @@ h5{
 
 .quadrato-grande.centrale img{
    width: 45%;
+   filter: invert(0%);
 }
 
 .middle.row{
@@ -556,18 +565,6 @@ h5{
    font-size: 13px;
    margin-right: 50px;
 }
-
-
-
-.box-domade:hover{
-   
-}
-
-
-
-
-
-
 /* FINE SEZIONE DOMANDE FREQUENTI */
 
 /* FINE MAIN */
