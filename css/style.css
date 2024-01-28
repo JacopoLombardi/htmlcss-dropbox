@@ -74,20 +74,23 @@ li{
    justify-content: space-between;
    z-index: 1;
    background-color: white;
+   flex-wrap: wrap;
 }
 
 .link-fixed{
    color: black;
-   margin-top: 20px;
+   height: 100%;
+   align-items: center;
 }
 
 .text-fixed{
-   display: inline-block;
    margin-top: 3px;
+   height: 100%;
 }
 
 .logo-fixed{
    width: 130px;
+   max-height: 26px;
 }
 
 .link-fixed, .logo-fixed{
@@ -98,6 +101,9 @@ li{
    padding: 10px 15px;
    margin-right: 20px;
 }
+
+
+
 
 
 /* JUMBOTRON */
@@ -128,7 +134,7 @@ h1{
 
 .img.jumbo{
    width: 70%;
-   right: -50px;
+   right: 0;
    bottom: -70px;
 }
 
@@ -162,10 +168,9 @@ h1{
 }
 
 .container.business{
-   width: 1000px;
+   width: 50%;
    margin-top: 160px;
    flex-wrap: wrap;
-   justify-content: center;
    justify-content: space-between;
 }
 
@@ -176,7 +181,7 @@ h1{
 
 .blocco.verticale{
    width: 300px;
-   max-height: 1000px;
+   margin-top: 10px;
 }
 
 .blocco.orizzontale.business{
@@ -325,6 +330,7 @@ h5{
 
 .section-partner .img-partner{
    width: 60%;
+   object-fit: scale-down;
 }
 
 .container-text{
@@ -592,6 +598,7 @@ footer{
 .container.end-menu{
    width: 1200px;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .container.end-menu ul{
