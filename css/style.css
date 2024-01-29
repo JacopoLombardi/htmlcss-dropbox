@@ -48,11 +48,13 @@ a{
 }
 
 .btn-blu:hover{
-   background-color: rgb(62, 142, 253);
+   opacity: 0.75;
+   transition: all 0.3s;
 }
 
 .btn-white:hover{
    background-color: rgb(241, 241, 241);
+   transition: all 0.3s;
 }
 
 li{
