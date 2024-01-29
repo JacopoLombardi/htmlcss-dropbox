@@ -31,6 +31,7 @@ body{
 
 a{
    text-decoration: none;
+   align-items: center;
 }
 
 .underline{
@@ -61,7 +62,9 @@ li{
    list-style: none;
 }
 
-
+nav div:hover{
+   border-bottom: 1.5px solid rgb(0, 97, 255);
+}
 
 
 
@@ -79,10 +82,20 @@ li{
    flex-wrap: wrap;
 }
 
+nav{
+   height: 100%;
+   align-items: center;
+}
+
 .link-fixed{
    color: black;
    height: 100%;
    align-items: center;
+   height: 100%;
+}
+
+.menu-fixed div{
+   height: 100%;
 }
 
 .text-fixed{
@@ -118,6 +131,7 @@ li{
 .container.jumbo{
    width: 1200px;
    min-height: 750px;
+   margin: 0 20px;
 }
 
 h1{
@@ -439,6 +453,7 @@ h5{
    cursor: pointer;
 }
 
+
 /* LEFT & RIGHT SQUARES */
 .quadrato-piccolo img{
    width: 50%;
@@ -624,6 +639,7 @@ footer{
    width: 1200px;
    justify-content: space-between;
    flex-wrap: wrap;
+   margin: 0 20px;
 }
 
 .container.end-menu ul{
@@ -651,6 +667,7 @@ footer{
 
 .container.end-menu-language{
    width: 1200px;
+   margin: 0 20px;
 }
 
 .large.row{
